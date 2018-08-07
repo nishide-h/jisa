@@ -55,10 +55,4 @@ RSpec.describe Jisa do
       expect(Jisa.get_string(Time.local(2018, 7, 25, 12, 0, 0), Time.local(2017, 6, 25, 12, 0, 0))).to eq "1年以上前"
     end
   end
-
-#   def test_get_string_months
-#     #assert_equal "1週間前", get_string(@base + 60 * 60 * 24 * 7, @base)
-#     #assert_equal "4週間前", get_string(@base + 60 * 60 * 24 * 7 * 5 - 1, @base)
-#   end
-
 end
