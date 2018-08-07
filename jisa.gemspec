@@ -9,11 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["nishide"]
   spec.email         = ["nishide.h@gmail.com"]
 
-  # spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  # spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "https://github.com/nishide-h"
+  spec.summary       = %q{Time difference in Japanese.}
+  spec.description   = %q{It returns japanese string with the difference in terms of year, month, week, day, hour, minute and second.}
+  spec.homepage      = "https://github.com/nishide-h/jisa"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
