@@ -2,7 +2,7 @@ require "jisa/version"
 
 module Jisa
   def self.get_string(update_at, now_at = Time.now)
-    sa = update_at - now_at
+    sa = now_at - update_at
 
     if (sa >= 60 * 60 * 24 * 7 * 4 * 12)
       "#{ (sa / 60 / 60 / 24 / 7 / 4 / 12).to_i }年以上前"
