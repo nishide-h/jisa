@@ -1,6 +1,14 @@
 require "jisa/version"
 
+# 時間差クラス
 module Jisa
+
+  # 時間差を返す
+  # ==== 引数
+  # * +update_at+ - 登録、更新日付
+  # * +now_at+ - 比較対象の日付、初期値は現在日時
+  # ==== 戻り値
+  # * +string+ - 時間差文字列
   def self.get_string(update_at, now_at = Time.now)
     sa = now_at - update_at
 
