@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jisa (0.1.0)
+    jisa (0.1.2)
 
 GEM
   remote: https://rubygems.org/
