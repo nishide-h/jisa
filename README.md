@@ -23,25 +23,25 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-Jisa.get_string(Time.now - 1)
+Jisa.in_japanese(Time.now - 1)
 # => "1秒前"
 
-Jisa.get_string(Time.now - 60)
+Jisa.in_japanese(Time.now - 60)
 # => "1分前"
 
-Jisa.get_string(Time.now - 60 * 60)
+Jisa.in_japanese(Time.now - 60 * 60)
 # => "1時間前"
 
-Jisa.get_string(Time.now - 60 * 60 * 24)
+Jisa.in_japanese(Time.now - 60 * 60 * 24)
 # => "1日前"
  
-Jisa.get_string(Time.now - 60 * 60 * 24 * 7)
+Jisa.in_japanese(Time.now - 60 * 60 * 24 * 7)
 # => "1週間前"
  
-Jisa.get_string(Time.now - 60 * 60 * 24 * 7 * 4)
+Jisa.in_japanese(Time.now - 60 * 60 * 24 * 7 * 4)
 # => "1ヶ月前"
   
-Jisa.get_string(Time.now - 60 * 60 * 24 * 7 * 4 * 12)
+Jisa.in_japanese(Time.now - 60 * 60 * 24 * 7 * 4 * 12)
 # => "1年以上前"
 ```
 

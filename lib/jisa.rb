@@ -9,7 +9,7 @@ module Jisa
   # * +now_at+ - 比較対象の日付、初期値は現在日時
   # ==== 戻り値
   # * +string+ - 時間差文字列
-  def self.get_string(update_at, now_at = Time.now)
+  def self.in_japanese(update_at, now_at = Time.now)
     sa = now_at - update_at
 
     if (sa >= 60 * 60 * 24 * 7 * 4 * 12)
